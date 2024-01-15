@@ -1,12 +1,17 @@
 body {
     font-family: 'Arial', sans-serif;
     margin: 20px;
-    background-color: #f8f8f8;
-    color: #333;
+    background-color: #3498db; /* Change the background color to a bright blue */
+    color: #fff; /* Set text color to white */
 }
 
-h1, h2, h3 {
-    color: #0056b3;
+h1 {
+    color: #000; /* Set main heading color to black */
+    text-decoration: underline; /* Add underline to main heading */
+}
+
+h2, h3 {
+    color: #fff; /* Set sub-heading color to white */
 }
 
 p {
@@ -52,13 +57,10 @@ li {
     text-align: center;
 }
 
-/* Add parallax effect to the projectsanguinebanner */
 .projectsanguinebanner {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 300px; /* Adjust the height as needed */
+    height: 300px;
 }
-
-/* Adjust the styles of other sections as needed */
