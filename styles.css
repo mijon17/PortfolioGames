@@ -46,8 +46,19 @@ li {
     margin-bottom: 8px;
 }
 
-center {
+.center {
     display: block;
     margin: auto;
     text-align: center;
 }
+
+/* Add parallax effect to the projectsanguinebanner */
+.projectsanguinebanner {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px; /* Adjust the height as needed */
+}
+
+/* Adjust the styles of other sections as needed */
