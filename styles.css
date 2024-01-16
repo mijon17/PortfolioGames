@@ -51,7 +51,9 @@ ul {
 li {
     margin-bottom: 8px;
     color: #bdc3c7; /* Set list item text color to a light silver */
+    list-style-type: disc; /* Set the list marker to a filled circle */
 }
+
 
 .center {
     display: block;
